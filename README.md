@@ -1,10 +1,8 @@
 # Chatly - Chat Application 
-Chatly is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
 
+![login page](./images/chatly2.png.)
 
-![login page](./images/Chatly_login.png)
-
-![home page](./images/Chatly.png)
+![home page](./images/chatly1.png)
 
 ## Installation Guide
 
@@ -17,8 +15,8 @@ Both should be installed and make sure mongodb is running.
 
 #### First Method
 ```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
+git clone https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-codewin1.git
+cd real-time-communication-with-socket-io-codewin1-main
 ```
 Now rename env files from .env.example to .env
 ```shell
@@ -43,6 +41,7 @@ We are almost done, Now just start the development server.
 For Frontend.
 ```shell
 cd public
+yarn add
 yarn start
 ```
 For Backend.
@@ -50,19 +49,7 @@ For Backend.
 Open another terminal in folder, Also make sure mongodb is running in background.
 ```shell
 cd server
+yarn add
 yarn start
 ```
-Done! Now open localhost:3000 in your browser.
-
-#### Second Method
-- This method requires docker and docker-compose to be installed in your system.
-- Make sure you are in the root of your project and run the following command.
-
-```shell
-docker compose build --no-cache
-```
-after the build is complete run the containers using the following command
-```shell
-docker compose up
-```
-now open localhost:3000 in your browser.
+Done! Now open localhost:5000 in your browser.
