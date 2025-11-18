@@ -1,17 +1,17 @@
 # Chatly - Chat Application 
 
-![login page](./images/chatly2.png.)
+![login page](./images/chatly2.png)
 
 ![home page](./images/chatly1.png)
 
 ## Installation Guide
 
 ### Requirements
+
 - [Nodejs](https://nodejs.org/en/download)
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
 Both should be installed and make sure mongodb is running.
-### Installation
 
 #### First Method
 ```shell
